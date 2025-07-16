@@ -24,8 +24,8 @@ A conversational Streamlit web app that allows you to interact with your Supabas
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/sql-chat-supabase.git
-cd sql-chat-supabase
+git clone https://github.com/Sandeepkandula2004/Agent-for-SQL-queries
+cd Agent-for-SQL-queries
 
 # Create virtual environment
 python -m venv venv
@@ -97,20 +97,3 @@ postgresql://postgres.<your-db-username>:<url-encoded-password>@aws-0-ap-southea
 - **Connection errors**: Check your password and that the transaction pooler is enabled.
 - **No response**: Ensure Groq API key is valid and the model is available.
 - **Streaming broken**: Disable `streaming=True` if not supported in your setup.
-
----
-
-## 📄 License
-
-MIT
-
----
-
-## 🙌 Acknowledgements
-
-- [LangChain](https://www.langchain.com/)
-- [Groq](https://groq.com/)
-- [Supabase](https://supabase.com/)
-- [Streamlit](https://streamlit.io/)
-
-```
